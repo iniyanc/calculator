@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'calc';
+    src: url(calc.ttf);
+  }
+
+
+body {
+    background-color: grey;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    font-family: 'calc', 'Times', sans-serif;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+button {
+    /* height: 20px;
+    width: 30px; */
+
+    font-family : inherit;
+    font-size: 10em;
+}
+
+#displayPanel {
+    grid-column: 1 / 5;
+    background-color: greenyellow;
+    font-size: 15.5vh;
+    text-align: center;
+}
+
+#equal {
+}
+
